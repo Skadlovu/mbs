@@ -1,0 +1,82 @@
+     
+{%extends 'base.html'%}
+{%load static%}
+{%block title%}
+Makamole Business Services ~ABOUT US
+{%endblock%}
+{%block content%}
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p></p>
+        </div>
+
+        <div class="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-5">
+            <div class="about-img">
+              <img src="{%static 'assets/img/four.webp' %}" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <h3 class="pt-0 pt-lg-5">Makamole Business Services is a South African company that provides a range of services to small and medium-sized enterprises (SMEs).</h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">Our Business</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">Our Mission</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">Our Vision</a></li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+
+              <div class="tab-pane fade show active" id="tab1">
+
+                <p class="fst-italic">Makamole Business Services offers a variety of services to SMEs, including business administration, compliance and governance, cybersecurity, and data protection.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Business Administration</h4>
+                </div>
+                <p>The company's business administration services include bookkeeping, payroll management, and office management</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Compliance and Governance</h4>
+                </div>
+                <p>Compliance and governance services help SMEs stay compliant with all relevant regulations and legislation, including tax compliance and company secretarial services.</p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Cybersecurity</h4>
+                </div>
+                <p>Cybersecurity services include vulnerability assessments, penetration testing, and cyber incident response, and their data protection services help SMEs protect their data and the privacy of their customers.</p>
+
+              </div><!-- End Tab 1 Content -->
+
+              <div class="tab-pane fade show" id="tab2">
+
+                <p class="fst-italic">Our mission is to empower mSMEs by providing them with the necessary tools and support to ensure that their businesses are compliant, secure, and sustainable.</p>
+
+              </div><!-- End Tab 2 Content -->
+
+              <div class="tab-pane fade show" id="tab3">
+
+                <p class="fst-italic">Our vision is to be the leading provider of business administration, compliance and governance, cybersecurity, and data protection services to mSMEs in South Africa.</p>
+
+              </div><!-- End Tab 3 Content -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    {%endblock%}
